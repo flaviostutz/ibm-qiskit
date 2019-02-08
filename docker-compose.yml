@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+
+  qiskit:
+    build: .
+    image: flaviostutz/ibm-qiskit
+    ports:
+      - 18888:8888
+
